@@ -131,3 +131,4 @@ dmypy.json
 
 # Output file
 minecraft_accessToken.json
+accessToken.txt

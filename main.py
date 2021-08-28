@@ -154,6 +154,9 @@ if __name__ == '__main__':
 						with open('minecraft_accessToken.json', 'wt', encoding='utf-8') as f:
 							dump(output, f, ensure_ascii=False, indent=4)
 							f.close()
+						with open('accessToken.txt', 'wt', encoding='utf-8') as f:
+							f.write(accessToken)
+							f.close()
 					else:
 						print('获取 Minecraft Access Token 失败！')
 				else:
